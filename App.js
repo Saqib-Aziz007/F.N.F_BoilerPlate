@@ -15,12 +15,17 @@ import {
   requestUserPermission,
   NotificationListener,
 } from './utils/PushNotification/PushNotification';
+import {GoogleSignin} from '@react-native-google-signin/google-signin';
 import Profile from './screens/Profile';
 
 const App = () => {
   useEffect(() => {
     requestUserPermission();
     NotificationListener();
+    GoogleSignin.configure({
+      webClientId:
+        '1073384982468-itp0fovbutlcr929etl5977f3ertitmo.apps.googleusercontent.com',
+    });
   }, []);
   return (
     // <SafeAreaView>

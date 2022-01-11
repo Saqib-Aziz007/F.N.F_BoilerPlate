@@ -1,41 +1,42 @@
 {
   "project_info": {
-    "project_number": "804068186332",
-    "project_id": "fnf-project-19059",
-    "storage_bucket": "fnf-project-19059.appspot.com"
+    "project_number": "1073384982468",
+    "project_id": "fit-n-fannie-c91ba",
+    "storage_bucket": "fit-n-fannie-c91ba.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:804068186332:android:f8df9ec5d440c5a787bc19",
+        "mobilesdk_app_id": "1:1073384982468:android:025b575a561bbe4b5e0691",
         "android_client_info": {
-          "package_name": "com.boilerplate"
+          "package_name": "com.fnfboilerplate"
         }
       },
       "oauth_client": [
         {
-          "client_id": "804068186332-9id36vegugloltb9tebuju2g2le627pm.apps.googleusercontent.com",
+          "client_id": "1073384982468-9pehul13860jjs3fpkd5su3p76qht8oa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fnfboilerplate",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "1073384982468-itp0fovbutlcr929etl5977f3ertitmo.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCV_O4gzfauWb2-R-LMGxUAMxfs_bka0CQ"
+          "current_key": "AIzaSyAHQKQSX_tQMLLweWbA9KM3X8z6g41oYkc"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "804068186332-9id36vegugloltb9tebuju2g2le627pm.apps.googleusercontent.com",
+              "client_id": "1073384982468-itp0fovbutlcr929etl5977f3ertitmo.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "804068186332-hadblq90oo6t6jpadn0o0s4sq17nun1d.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "org.reactjs.native.example.BoilerPlate"
-              }
             }
           ]
         }

@@ -1,4 +1,4 @@
-package com.boilerplate;
+package com.fnfboilerplate;
 
 import com.facebook.react.ReactActivity;
 

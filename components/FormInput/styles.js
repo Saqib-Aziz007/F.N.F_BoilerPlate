@@ -15,6 +15,6 @@ export const styles = StyleSheet.create({
     fontSize: 20,
     color: colors.APP_SECONDARY_COLOR,
     paddingHorizontal: 10,
-    height: 40,
+    height: 50,
   },
 });

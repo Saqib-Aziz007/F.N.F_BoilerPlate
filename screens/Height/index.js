@@ -7,12 +7,12 @@ import {colors} from '../../components/constants/constants';
 import AppToggleButton from '../../components/CustomButton';
 import AppButton from '../../components/AppButton';
 import {useNavigation} from '@react-navigation/native';
-import {AGE} from '../../navigation/routes';
+import {AGE, HEIGHT} from '../../navigation/routes';
 import {styles} from './styles';
 import WeightScreen from '../weight';
 
 const HeightScreen = ({navigation, route}) => {
-  // console.log('WightScreen', route.params);
+  console.log('WightScreen', route.params);
   const [height, setHeight] = useState();
   const [HeightUnit, setHeightUnit] = useState('FT');
   return (
@@ -23,7 +23,7 @@ const HeightScreen = ({navigation, route}) => {
           size={32}
           onPress={() => navigation.goBack()}
         />
-        <View style={{height: '100%'}}>
+        <View>
           <Text style={styles.screenTitle}>Account Setup</Text>
           <View style={styles.progressBar}></View>
           <Text style={styles.title}>HEIGHT</Text>
@@ -44,12 +44,13 @@ const HeightScreen = ({navigation, route}) => {
             title={'NEXT'}
             // onPress={() =>
             //   console.log('HeightScreen on submit::::', {
+            //   navigation.navigate(AGE, {
             //     ...route.params,
             //     Height: {height, HeightUnit},
             //   })
             // }
             onPress={() =>
-              navigation.navigate(AGE, {
+              navigation.navigate(HEIGHT, {
                 ...route.params,
                 Height: {height, HeightUnit},
               })
