@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">BoilerPlate</string>
+    <string name="facebook_app_id">782951725996108</string>
+    <string name="fb_login_protocol_scheme">fb782951725996108</string>
 </resources>
