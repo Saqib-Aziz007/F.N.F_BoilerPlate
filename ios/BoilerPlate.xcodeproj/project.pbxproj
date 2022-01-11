@@ -14,7 +14,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		14FBD0AD278C0B3500525778 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14FBD0AC278C0B3500525778 /* GoogleService-Info.plist */; };
+		14AABE0F278C72ED00970949 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14AABE0E278C72ED00970949 /* GoogleService-Info.plist */; };
 		1729FEF9B0ED435DA9C9A9DE /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E10B2F4CF8134209BA1F1D59 /* OpenSans-SemiBoldItalic.ttf */; };
 		17B8610726DE40F8AE64B44D /* OpenSans_SemiCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E17A3FA1AFD74BB3A280EDA8 /* OpenSans_SemiCondensed-Light.ttf */; };
 		1C15B332A4B24E229E80A511 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F327E9B07ED549478012733B /* Poppins-SemiBold.ttf */; };
@@ -96,7 +96,7 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = BoilerPlate/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BoilerPlate/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BoilerPlate/main.m; sourceTree = "<group>"; };
-		14FBD0AC278C0B3500525778 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		14AABE0E278C72ED00970949 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1F236EF7BB9304A28FA726D7 /* Pods-BoilerPlate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoilerPlate.release.xcconfig"; path = "Target Support Files/Pods-BoilerPlate/Pods-BoilerPlate.release.xcconfig"; sourceTree = "<group>"; };
 		27DCA58DFC974BCF8C63ABA3 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../assets/fonts/Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		291BBEB15CF043049D783D81 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Light.ttf"; path = "../assets/fonts/Open_Sans/static/OpenSans/OpenSans-Light.ttf"; sourceTree = "<group>"; };
@@ -263,7 +263,7 @@
 		13B07FAE1A68108700A75B9A /* BoilerPlate */ = {
 			isa = PBXGroup;
 			children = (
-				14FBD0AC278C0B3500525778 /* GoogleService-Info.plist */,
+				14AABE0E278C72ED00970949 /* GoogleService-Info.plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -439,6 +439,7 @@
 				80D9BF830835497090C264DE /* OpenSans_Condensed-SemiBold.ttf in Resources */,
 				26150388620A44C9A2975EB5 /* OpenSans_Condensed-SemiBoldItalic.ttf in Resources */,
 				7B46C0180C5F4341AE2DE86B /* OpenSans_SemiCondensed-Bold.ttf in Resources */,
+				14AABE0F278C72ED00970949 /* GoogleService-Info.plist in Resources */,
 				8752046425394A3496D8A5E4 /* OpenSans_SemiCondensed-BoldItalic.ttf in Resources */,
 				9E953A2D13BD4C0981FC3929 /* OpenSans_SemiCondensed-ExtraBold.ttf in Resources */,
 				5B488ABFF534494AA1D58862 /* OpenSans_SemiCondensed-ExtraBoldItalic.ttf in Resources */,
@@ -447,7 +448,6 @@
 				C7B57060AAA141F4959C013C /* OpenSans_SemiCondensed-LightItalic.ttf in Resources */,
 				8BB079ECD3384B94848BF4B8 /* OpenSans_SemiCondensed-Medium.ttf in Resources */,
 				2F2BC5340B564210B8325ABD /* OpenSans_SemiCondensed-MediumItalic.ttf in Resources */,
-				14FBD0AD278C0B3500525778 /* GoogleService-Info.plist in Resources */,
 				29994A5CC260422FA122096F /* OpenSans_SemiCondensed-Regular.ttf in Resources */,
 				EC051CDC1B5248F682527394 /* OpenSans_SemiCondensed-SemiBold.ttf in Resources */,
 				72DA7E353B85426A8571D44A /* OpenSans_SemiCondensed-SemiBoldItalic.ttf in Resources */,
@@ -745,7 +745,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fnfboilerplate;
 				PRODUCT_NAME = BoilerPlate;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -770,7 +770,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fnfboilerplate;
 				PRODUCT_NAME = BoilerPlate;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
