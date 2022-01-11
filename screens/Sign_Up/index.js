@@ -18,10 +18,6 @@ import FormInput from '../../components/FormInput';
 import AppButton from '../../components/AppButton';
 import {HEALTHAPPROVAL} from '../../navigation/routes';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-
-import GoogleSignIn from '../../utils/Social_Login/GoogleSignIn';
-import onFaceBookLogin from '../../utils/Social_Login/FacebookLogin';
-
 const ValidationSchema = Yup.object().shape({
   name: Yup.string()
     .min(2, 'Too Short!')
@@ -85,7 +81,7 @@ const SignUp = ({navigation}) => {
             <AppIconButton
               icon={'chevron-left'}
               size={32}
-              style={{position: 'absolute', left: 30, top: -25}}
+              style={{position: 'absolute', left: 20, top: -10}}
               onPress={
                 () => navigation.goBack()
                 // console.log('back!!!!!')
@@ -145,8 +141,18 @@ const SignUp = ({navigation}) => {
           </View>
           <Divider text="or join with" />
           <View style={styles.socialbuttoncontainer}>
-            <AppSocialButton icon={'facebook'} onPress={onFaceBookLogin} />
-            <AppSocialButton icon={'google'} onPress={GoogleSignIn} />
+            <AppSocialButton
+              icon={'facebook'}
+              onPress={() =>
+                Alert.alert('Alert!', 'Facebook Social Button Pressed!')
+              }
+            />
+            <AppSocialButton
+              icon={'google'}
+              onPress={() =>
+                Alert.alert('Alert!', 'Google Social Button Pressed!')
+              }
+            />
           </View>
           <View style={styles.lastlinecontainer}>
             <Text style={styles.lastline}>

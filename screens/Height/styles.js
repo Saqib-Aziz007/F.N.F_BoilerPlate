@@ -26,7 +26,6 @@ export const styles = StyleSheet.create({
     // fontFamily: POPPINS_BOLD,
     marginTop: 80,
     textAlign: 'center',
-    color: colors.APP_SECONDARY_COLOR,
   },
   input: {
     width: '80%',
